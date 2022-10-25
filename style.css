@@ -1,0 +1,44 @@
+.main-flex-container {
+  border-style: solid;
+  border-color: red;
+  border-width: 3mm;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.hero-container {
+  border-style: solid;
+  border-color: blue;
+  border-width: 3mm;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px 0;
+}
+
+#content-container {
+  border-style: solid;
+  border-color: green;
+  border-width: 3mm;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-container {
+    border-style: solid;
+    border-color: purple;
+    border-width: 3mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 45%;
+    margin: 1%;
+}
+
+img {
+    width: 90%;
+}
+
